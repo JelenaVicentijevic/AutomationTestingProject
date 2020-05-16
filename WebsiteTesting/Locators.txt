@@ -1,0 +1,47 @@
+USERNAME_NAME:username
+PASSWORD_ID:password
+LOG_IN_BTN_XPATH://input[@class='btn blue']
+NOTIFICATION_MISSING_XPATH://p[contains(text(),'Missing username or password.')]
+NOTIFICATION_INCORRECT_XPATH://p[contains(text(),'Incorrect username or password.')]
+LOG_OUT_BTN_XPATH://a[@id='logout']
+
+SIGN_UP_LINK:Sign up
+USERNAME_XPATH://input[@id='username']
+EMAIL_ID:email
+PASSWORD_CSS:#password
+CONFIRM_XPATH://input[@id='confirm']
+ABOUT_XPATH://select[@id='aboutyou']
+WEBSITE_XPATH://input[@id='website']
+SUBMIT_BTN_ID:submit-button
+ACCOUNT_AVATAR_XPATH://div[@id='account-avatar']
+ACCOUNT_USERNAME_XPATH://span[@id='v-username']
+
+PRODUCT_ICON_XPATH://a[contains(text(),'Products')]
+ADD_PRODUCT_XPATH://a[@class='context-btn add']
+PRODUCT_NAME_XPATH://input[@name='name']
+PRODUCT_ID_XPATH://input[@name='vendor_product_id']
+PRODUCT_SHORT_DESCRIPTION_XPATH://input[@name='description']
+PRODUCT_LONG_DESCRIPTION_XPATH://textarea[@name='long_description']
+PRICE_XPATH://input[@name='price']
+TRBTN_YES_XPATH://div[@class='form-group']//label[@class='multi-choice yes-no'][contains(text(),'Yes')]
+TBTN_NO_XPATH://div[@class='form-group']//label[@class='multi-choice yes-no'][contains(text(),'No')]
+RRBTN_YES_XPATH://div[@class='form-group interval']//label[@class='multi-choice yes-no'][contains(text(),'Yes')]
+RRBTN_NO_XPATH://div[@class='form-group interval']//label[@class='multi-choice yes-no'][contains(text(),'No')]
+PRODUCT_URL_XPATH://input[@name='approved_url']
+SUBMIT_BTN_XPATH://input[@name='submit']
+BILL_XPATH://input[@id='run_increment']
+BILL_WEEK_XPATH://select[@id='run_interval']//option[contains(text(),'Week(s)')]
+BILL_MONTH_XPATH://select[@id='run_interval']//option[contains(text(),'Month(s)')]
+BILL_YEAR_XPATH://select[@id='run_interval']//option[contains(text(),'Year')]
+CONTINUE_BILL_XPATH://input[@id='data_increment']
+CBILL_WEEK_XPATH://select[@id='data_interval']//option[contains(text(),'Week(s)')]
+CBILL_MONTH_XPATH://select[@id='data_interval']/option[contains(text(),'Month(s)')]
+CBILL_YEAR_XPATH://select[@id='data_interval']/option[contains(text(),'Year(s)')]
+CBILL_FOREVER_XPATH://select[@id='data_interval']/option[contains(text(),'Forever')]
+VIEW_XPATH://a[contains(text(),'View')]
+PRODUCT_ADDED_XPATH://span[@class='form_valid large']
+IDS_XPATH://td[contains(text(),'ID0')]
+EDIT_XPATH://a[contains(text(),'Edit')]
+PRICES_XPATH://*[contains(@name,'price_')]
+SAVE_BTN_XPATH://input[@class='context-btn save']
+SAVE_NOTIFICATION_XPATH://span[@class='form_valid']

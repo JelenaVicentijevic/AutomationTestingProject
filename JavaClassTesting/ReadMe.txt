@@ -1,0 +1,1 @@
+Methods from class Calculator are tested in TestCalculator TestNG class.
